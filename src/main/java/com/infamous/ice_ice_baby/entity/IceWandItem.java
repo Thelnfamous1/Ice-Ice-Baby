@@ -21,7 +21,7 @@ public class IceWandItem extends Item {
             World world = playerIn.getEntityWorld();
             IceCloudEntity iceCloudEntity = new IceCloudEntity(world, playerIn, target);
             world.addEntity(iceCloudEntity);
-            playerIn.getCooldownTracker().setCooldown(ModItems.ICE_WAND.get(), 100);
+            playerIn.getCooldownTracker().setCooldown(ModItems.ICE_WAND.get(), 400);
             stack.damageItem(1, playerIn, playerEntity -> playerEntity.sendBreakAnimation(hand));
             return ActionResultType.SUCCESS;
         }
