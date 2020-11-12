@@ -128,7 +128,7 @@ public class IceCloudEntity extends Entity {
             this.fallTime++;
 
             if (!this.hasNoGravity()) {
-                this.setMotion(this.getMotion().add(0.0D, -0.04D * 4.0D, 0.0D));
+                this.setMotion(this.getMotion().add(0.0D, -0.04D * 8.0D, 0.0D));
             }
 
             this.move(MoverType.SELF, this.getMotion());
