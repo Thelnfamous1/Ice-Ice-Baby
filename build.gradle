@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '3.0.0'
+version = '3.0.1'
 group = 'com.infamous.ice_ice_baby' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ice_ice_baby-1.16.4'
 
