@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "ice_ice_baby:item/ice_wand"
+	}
+}
